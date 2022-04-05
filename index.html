@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>I love You</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <audio id="player" preload="auto">
+  <source src="./hen-mot-mai.mp3">
+  </source>
+  Nếu không nghe được nhạc sau khi nhấn Click to Play, thì cậu có thể mở giúp tớ trên thiết bị máy tính hoặc laptop nhé.</audio>
+    <div class="player_container hidden animated">
+        <button data-am-button="small" id="btn-mute" title="sound"><i class="fa fa-volume-off"></i></button>
+        <button data-am-button="large" id="btn-play-pause" title="play"><i class="fa fa-play"></i></button>
+        <button data-am-button="small" id="btn-stop" title="stop"><i class="fa fa-stop"></i></button>
+        <div id="progress-bar"><span id="progress"></span></div>
+    </div>
+    <div id="opening_screen" class="animated">
+        <h2 class="spinning">Falling in Love<br>Click to Play</h2>
+
+    </div>
+    <!-- Lyrics -->
+
+    <section id="peace">
+
+        <!-- FIRST VERSE -->
+
+        <h2 id="wisemensay" class="lyrics animated hidden">Chào Thúy</h2>
+        <h2 id="onlyfools1" class="lyrics animated hidden">Lời đầu tiên, tớ muốn nói với cậu rằng</h2>
+        <h2 id="canthelp1" class="lyrics animated hidden">Trong khoảng thời gian vừa qua, tớ cảm thấy rất vui khi được gặp và quen biết cậu ^^</h2>
+        <h2 id="fallinginlove1" class="lyrics animated hidden">Và tớ rất trân trọng mối quan hệ này</h2>
+        <h2 id="withyou1" class="lyrics animated hidden">With you</h2>
+        <h2 id="shallistay" class="lyrics animated hidden">Tớ muốn nói rằng, tớ thích cậu</h2>
+        <h2 id="beasin" class="lyrics animated hidden">I love You</h2>
+        <h2 id="ificanthelp" class="lyrics animated hidden">Tớ mong muốn rằng, mối quan hệ này sẽ được phát triển hơn và tớ mong chờ câu trả lời từ cậu</h2>
+        <h2 id="fallinginlove2" class="lyrics animated hidden">Cậu suy nghĩ, rồi trả lời lại tớ nhé ^^</h2>
+        <h2 id="withyou2" class="lyrics animated hidden">Ps: Hẹn Một Mai là ca khúc mà tớ rất thích của hoàng tử ballad Bùi Anh Tuấn, hi vọng là cậu cũng thích</h2>
+
+        <!-- SECOND VERSE -->
+
+        <h2 id="likeariver1" class="lyrics animated hidden">Có con đường nào bước qua</h2>
+        <h2 id="tothesea1" class="lyrics animated hidden">Ta đến mang em món quà</h2>
+        <h2 id="darlingitgoes1" class="lyrics animated hidden">Hẹn hò yêu thương</h2>
+        <h2 id="somethings1" class="lyrics animated hidden">Ta say đến già</h2>
+        <h2 id="meanttobe1" class="lyrics animated hidden">Nắng mưa là chuyện nắng mưa</h2>
+        <h2 id="takemyhand1" class="lyrics animated hidden">Ai biết con tim đã vừa</h2>
+        <h2 id="wholelife1" class="lyrics animated hidden">Chạm đến hạnh phúc hay là chưa</h2>
+        <h2 id="foricanthelp1" class="lyrics animated hidden">Vô tình là cơn gió</h2>
+        <h2 id="fallinginlove3" class="lyrics animated hidden">Mang yêu thương đến gần anh</h2>
+        <h2 id="withyou3" class="lyrics animated hidden">Giữ gìn là trọng trách</h2>
+
+        <!-- THIRD VERSE -->
+        <h2 id="likeariver2" class="lyrics animated hidden">Đôi vai anh thêm sức mạnh</h2>
+        <h2 id="tothesea2" class="lyrics animated hidden">Tin tưởng là lời hứa</h2>
+        <h2 id="darlingitgoes2" class="lyrics animated hidden">Xa bao lâu vẫn tìm nhau</h2>
+        <h2 id="somethings2" class="lyrics animated hidden">Anh chẳng hứa sẽ sang giàu</h2>
+        <h2 id="meanttobe2" class="lyrics animated hidden">Chỉ hứa yêu dài lâu</h2>
+        <h2 id="takemyhand2" class="lyrics animated hidden">Lỡ mai rời xa</h2>
+        <h2 id="wholelife2" class="lyrics animated hidden">Ai biết được</h2>
+        <h2 id="foricanthelp2" class="lyrics animated hidden">Chợt biến mất hay vội lạc</h2>
+        <h2 id="fallinginlove4" class="lyrics animated hidden">Những nốt yêu thương</h2>
+        <h2 id="withyou4" class="lyrics animated hidden">Mất nhau ngoài kia</h2>
+        <h2 id="foricanthelp3" class="lyrics animated hidden">Không với kịp</h2>
+        <h2 id="fallinginlove5" class="lyrics animated hidden">Vẽ ánh hoàng hôn</h2>
+        <h2 id="withyou5" class="lyrics animated hidden">Nơi có đôi tim cùng nhịp</h2>
+        <h2 id="bemine" class="lyrics animated hidden">Vẽ ánh hoàng hôn<br />Nơi có đôi tim cùng nhịp</h2>
+    </section>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
