@@ -300,33 +300,33 @@ audioElement.addEventListener('timeupdate', function(e) {
     }
     // With You - 2
 
-    if (nowTime > 73 && lastTime < 73) {
+    if (nowTime > 75 && lastTime < 75) {
 
         $('#withyou2').toggleClass('pushSoftIn hidden');
         $('#fallinginlove2').toggleClass('pushSoftIn pushSoftOut');
     }
     // Like a rivere flows
-    if (nowTime > 80 && lastTime < 80) {
+    if (nowTime > 82 && lastTime < 82) {
 
         $('#likeariver1').toggleClass('pushSoftIn hidden');
         $('#withyou2').toggleClass('pushSoftIn pushSoftOut');
     }
     // Surelt to the sea
-    if (nowTime > 84 && lastTime < 84) {
+    if (nowTime > 90 && lastTime < 90) {
 
         $('#tothesea1').toggleClass('pushSoftIn hidden');
         $('#likeariver1').toggleClass('pushSoftIn pushSoftOut');
     }
 
     // Darling so it goes
-    if (nowTime > 88 && lastTime < 88) {
+    if (nowTime > 96 && lastTime < 96) {
 
         $('#darlingitgoes1').toggleClass('pushSoftIn hidden');
         $('#tothesea1').toggleClass('pushSoftIn pushSoftOut');
     }
 
     // Some things
-    if (nowTime > 92 && lastTime < 92) {
+    if (nowTime > 102 && lastTime < 102) {
 
         $('#somethings1').toggleClass('pushSoftIn hidden');
         $('#darlingitgoes1').toggleClass('pushSoftIn pushSoftOut');
@@ -334,63 +334,63 @@ audioElement.addEventListener('timeupdate', function(e) {
 
     // Are meant to be
 
-    if (nowTime > 96 && lastTime < 96) {
+    if (nowTime > 108 && lastTime < 108) {
 
         $('#meanttobe1').toggleClass('pushSoftIn hidden');
         $('#somethings1').toggleClass('pushSoftIn pushSoftOut');
     }
     // Take my hand
-    if (nowTime > 100 && lastTime < 100) {
+    if (nowTime > 114 && lastTime < 114) {
 
         $('#takemyhand1').toggleClass('pushSoftIn hidden');
         $('#meanttobe1').toggleClass('pushSoftIn pushSoftOut');
     }
     // Take my whole life too
-    if (nowTime > 104 && lastTime < 104) {
+    if (nowTime > 120 && lastTime < 120) {
 
         $('#wholelife1').toggleClass('pushSoftIn hidden');
         $('#takemyhand1').toggleClass('pushSoftIn pushSoftOut');
     }
     // For I can't help
-    if (nowTime > 112 && lastTime < 112) {
+    if (nowTime > 126 && lastTime < 126) {
 
         $('#foricanthelp1').toggleClass('pushSoftIn hidden');
         $('#wholelife1').toggleClass('pushSoftIn pushSoftOut');
     }
     // Falling in love
-    if (nowTime > 116 && lastTime < 116) {
+    if (nowTime > 132 && lastTime < 132) {
 
         $('#fallinginlove3').toggleClass('pushSoftIn hidden');
         $('#foricanthelp1').toggleClass('pushSoftIn pushSoftOut');
     }
     // With you - 3
-    if (nowTime > 120 && lastTime < 120) {
+    if (nowTime > 138 && lastTime < 138) {
 
         $('#withyou3').toggleClass('pushSoftIn hidden');
         $('#fallinginlove3').toggleClass('pushSoftIn pushSoftOut');
     }
 
-    if (nowTime > 124 && lastTime < 124) {
+    if (nowTime > 144 && lastTime < 144) {
 
         $('#likeariver2').toggleClass('pushSoftIn hidden');
         $('#withyou3').toggleClass('pushSoftIn pushSoftOut');
     }
     // Surely to the sea
-    if (nowTime > 128 && lastTime < 128) {
+    if (nowTime > 150 && lastTime < 150) {
 
         $('#tothesea2').toggleClass('pushSoftIn hidden');
         $('#likeariver2').toggleClass('pushSoftIn pushSoftOut');
     }
 
     // Darling so it goes
-    if (nowTime > 132 && lastTime < 132) {
+    if (nowTime > 156 && lastTime < 156) {
 
         $('#darlingitgoes2').toggleClass('pushSoftIn hidden');
         $('#tothesea2').toggleClass('pushSoftIn pushSoftOut');
     }
 
     // Some things
-    if (nowTime > 136 && lastTime < 136) {
+    if (nowTime > 162 && lastTime < 162) {
 
         $('#somethings2').toggleClass('pushSoftIn hidden');
         $('#darlingitgoes2').toggleClass('pushSoftIn pushSoftOut');
@@ -398,25 +398,25 @@ audioElement.addEventListener('timeupdate', function(e) {
 
     // Are meant to be
 
-    if (nowTime > 140 && lastTime < 140) {
+    if (nowTime > 168 && lastTime < 168) {
 
         $('#meanttobe2').toggleClass('pushSoftIn hidden');
         $('#somethings2').toggleClass('pushSoftIn pushSoftOut');
     }
     // Take my hand
-    if (nowTime > 144 && lastTime < 144) {
+    if (nowTime > 174 && lastTime < 174) {
 
         $('#takemyhand2').toggleClass('pushSoftIn hidden');
         $('#meanttobe2').toggleClass('pushSoftIn pushSoftOut');
     }
     // Take my whole life too
-    if (nowTime > 148 && lastTime < 148) {
+    if (nowTime > 180 && lastTime < 180) {
 
         $('#wholelife2').toggleClass('pushSoftIn hidden');
         $('#takemyhand2').toggleClass('pushSoftIn pushSoftOut');
     }
     // For I can't help
-    if (nowTime > 152 && lastTime < 152) {
+    if (nowTime > 186 && lastTime < 186) {
 
         $('#foricanthelp2').toggleClass('pushSoftIn hidden');
         $('#wholelife2').toggleClass('pushSoftIn pushSoftOut');
@@ -424,20 +424,20 @@ audioElement.addEventListener('timeupdate', function(e) {
 
     // Falling in love
 
-    if (nowTime > 156 && lastTime < 156) {
+    if (nowTime > 192 && lastTime < 192) {
 
         $('#fallinginlove4').toggleClass('pushSoftIn hidden');
         $('#foricanthelp2').toggleClass('pushSoftIn pushSoftOut');
     }
     // With you - 3
-    if (nowTime > 160 && lastTime < 160) {
+    if (nowTime > 198 && lastTime < 198) {
 
         $('#withyou4').toggleClass('pushSoftIn hidden');
         $('#fallinginlove4').toggleClass('pushSoftIn pushSoftOut');
     }
 
     // For I can't help
-    if (nowTime > 164 && lastTime < 164) {
+    if (nowTime > 204 && lastTime < 204) {
 
         $('#foricanthelp3').toggleClass('pushSoftIn hidden');
         $('#withyou4').toggleClass('pushSoftIn pushSoftOut');
@@ -445,23 +445,39 @@ audioElement.addEventListener('timeupdate', function(e) {
 
     // Falling in love
 
-    if (nowTime > 168 && lastTime < 168) {
+    if (nowTime > 210 && lastTime < 210) {
 
         $('#fallinginlove5').toggleClass('pushSoftIn hidden');
         $('#foricanthelp3').toggleClass('pushSoftIn pushSoftOut');
     }
-    // With you - 3
-    if (nowTime > 172 && lastTime < 172) {
+
+    // Falling in love
+    if (nowTime > 216 && lastTime < 216) {
 
         $('#withyou5').toggleClass('pushSoftIn hidden');
         $('#fallinginlove5').toggleClass('pushSoftIn pushSoftOut');
     }
     // With you - 3
-    if (nowTime > 176 && lastTime < 176) {
+    if (nowTime > 222 && lastTime < 222) {
 
+        $('#withyou6').toggleClass('pushSoftIn hidden');
         $('#withyou5').toggleClass('pushSoftIn pushSoftOut');
     }
-    if (nowTime > 182 && lastTime < 182) {
+
+
+    // With you - 3
+    if (nowTime > 228 && lastTime < 228) {
+
+        $('#withyou6').toggleClass('pushSoftIn hidden');
+        $('#withyou5').toggleClass('pushSoftIn pushSoftOut');
+    }
+    // With you - 3
+    if (nowTime > 234 && lastTime < 234) {
+
+        $('#withyou6').toggleClass('pushSoftIn pushSoftOut');
+    }
+
+    if (nowTime > 240 && lastTime < 240) {
 
         $('#bemine').toggleClass('roEdgeUpIn hidden');
 
